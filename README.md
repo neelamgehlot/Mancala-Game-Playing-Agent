@@ -4,7 +4,7 @@ A program to determine the next move for a player in the Mancala game using Gree
 
 ###Introduction to Mancala
 
-(/Images/Mancala.png)
+![Sample Board](/Images/Mancala.png)
 
 Mancala is a two-player game from Africa in which players moves stones around a board (shown above), trying to capture as many as possible. In the board above, player 1 owns the bottom row of stones and player 2 owns the top row. There are also two special pits on the board, called Mancalas, in which each player accumulates his or her captured stones (player 1's Mancala is on the right and player 2's Mancala is on the left). 
 
@@ -12,11 +12,11 @@ On a player's turn, he or she chooses one of the pits on his or her side of the 
 
 ###Legal moves
 
-(/Images/InitialState.png)
+![Initial State](/Images/InitialState.png)
 
 Assume that the current board position is as shown in the image above and the current turn is Player-1’s. Blocks B2-B7 are Player-1’s pits, blocks A2-A7 are Player-2’s pits, B8 is Player-1’s Mancala and A1 is Player-2’s Mancala. We define a move for any player as to pick a pit (except Mancala) from which the stones are removed and placed in other pits as explained above. So for the current board position, Player-1’s legal moves are pits B2, B3, B4, B5, B6, or B7. The image below shows the board position if Player-1 picks B5 as his/her move. Any player cannot choose an empty pit as a move, i.e. empty pits are illegal moves. 
 
-(/Images/LegalMove1.png)
+![State after first move](/Images/LegalMove1.png)
 
 A player can make more than one move during his/her turn as per the rules. For example, Player-1 can pick pit B4 and then pick any other pit (except for B4 as it will be empty) for his turn for the starting board position shown above. 
 
