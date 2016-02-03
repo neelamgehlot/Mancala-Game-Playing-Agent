@@ -51,7 +51,7 @@ A file input.txt that describes the current state of the game.
 (#stones in player-2’s mancala)  
 (#stones in player-1’s mancala)  
 
-eg.
+eg.  
 2  
 1  
 2  
@@ -68,6 +68,8 @@ The program output one file named “next_state.txt” showing the next state of
 0  
 2  
 
-1. Line-1 represents the board state for player-2, i.e. the upper side of the board. Each number is separated by a single white space. 2. Line-2 represents the board state for player-1, i.e. the upper side of the board. Each number is separated by a single white space. 3. Line-3 gives you the number of stones in player-2’s mancala.  
-4. Line-4 gives you the number of stones in player-1’s mancala.  
+* Line-1 represents the board state for player-2, i.e. the upper side of the board. Each number is separated by a single white space.
+* Line-2 represents the board state for player-1, i.e. the upper side of the board. Each number is separated by a single white space.
+* Line-3 gives you the number of stones in player-2’s mancala.
+* Line-4 gives you the number of stones in player-1’s mancala.  
 
