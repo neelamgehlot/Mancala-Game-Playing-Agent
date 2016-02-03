@@ -43,13 +43,13 @@ The board size will be 2xN along with a mancala for each player, where N represe
 ###Input
 
 A file input.txt that describes the current state of the game.  
-<Task#> Greedy=1, MiniMax=2, Alpha-Beta=3   
-<Your player: 1 or 2>  
-<Cutting off depth>  
-<Board state for player-2>  
-<Board state for player-1>  
-<#stones in player-2’s mancala>  
-<#stones in player-1’s mancala>  
+(Task#) Greedy=1, MiniMax=2, Alpha-Beta=3   
+(Your player: 1 or 2)  
+(Cutting off depth)  
+(Board state for player-2)  
+(Board state for player-1)  
+(#stones in player-2’s mancala)  
+(#stones in player-1’s mancala)  
 
 eg.
 2  
@@ -68,6 +68,6 @@ The program output one file named “next_state.txt” showing the next state of
 0  
 2  
 
-1.Line-1 represents the board state for player-2, i.e. the upper side of the board. Each number is separated by a single white space. 2.Line-2 represents the board state for player-1, i.e. the upper side of the board. Each number is separated by a single white space. 3.Line-3 gives you the number of stones in player-2’s mancala.  
-4.Line-4 gives you the number of stones in player-1’s mancala.  
+1. Line-1 represents the board state for player-2, i.e. the upper side of the board. Each number is separated by a single white space. 2. Line-2 represents the board state for player-1, i.e. the upper side of the board. Each number is separated by a single white space. 3. Line-3 gives you the number of stones in player-2’s mancala.  
+4. Line-4 gives you the number of stones in player-1’s mancala.  
 
