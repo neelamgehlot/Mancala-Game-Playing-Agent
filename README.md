@@ -73,3 +73,11 @@ The program output one file named “next_state.txt” showing the next state of
 * Line-3 gives you the number of stones in player-2’s mancala.
 * Line-4 gives you the number of stones in player-1’s mancala.  
 
+
+###Steps to run:
+
+1. Go to the folder where you have clone the repository.
+2. The format for input.txt is specified above.
+3. Type in terminal "javac Mancala.java input.txt" without quotes.
+3. Then type in terminal "java Mancala" wihout quotes.
+4. 
