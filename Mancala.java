@@ -23,7 +23,7 @@ public class Mancala {
         BufferedReader bufferedReader=null;
         
         try{
-            fileInputStream=new FileInputStream("input.txt");
+            fileInputStream=new FileInputStream(args[2]);
             inputStreamReader=new InputStreamReader(fileInputStream);
             bufferedReader=new BufferedReader(inputStreamReader);
             
